@@ -1,0 +1,477 @@
+.hide {
+  display: none;
+}
+.teacher-register .navbar {
+  background-color: rgba(235, 209, 180, 0.7);
+  padding: 20px;
+}
+.teacher-register .navbar .head-container ul {
+  display: flex;
+  justify-content: right;
+  column-gap: 30px;
+  list-style-type: none;
+}
+.teacher-register .navbar .head-container ul li a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+.teacher-register .navbar .head-container ul li:hover {
+  scale: 1.2;
+}
+.teacher-register .main-container {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  height: 70%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding: 40px 30px;
+}
+.teacher-register .main-container .bg-img {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  background-image: url("images/register-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+}
+.teacher-register .main-container .one {
+  margin-left: 80px;
+}
+.teacher-register .main-container .column {
+  width: 50%;
+  height: 100%;
+}
+.teacher-register .main-container .column .head {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  color: #333;
+}
+.teacher-register .main-container .column .form {
+  text-align: center;
+}
+.teacher-register .main-container .column .form select {
+  width: 60%;
+  height: 40px;
+  border: none;
+  margin: 10px auto;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.39);
+}
+.teacher-register .main-container .column .form select option {
+  outline: none;
+}
+.teacher-register .main-container .column .form input {
+  width: 60%;
+  height: 40px;
+  margin: auto;
+  border: none;
+  margin-block: 12px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.39);
+}
+.teacher-register .main-container .column .form input::placeholder {
+  color: #333;
+  font-weight: bold;
+  font-size: 10px;
+}
+.teacher-register .main-container .column .form .pass {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.39);
+  margin-block: 15px;
+  padding-right: 5px;
+}
+.teacher-register .main-container .column .form .pass input {
+  margin: 0%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.teacher-register .main-container .column .form .pass svg {
+  fill: #333;
+}
+.teacher-register .main-container .column .form .btn {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-block: 40px;
+}
+.teacher-register .main-container .column .form .btn button {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(235, 209, 180, 0.7);
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+}
+.teacher-register .main-container .column .form .btn button:hover {
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.teacher-register .main-container .column .form .error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+.login .navbar {
+  background-color: #96adc2;
+  padding: 20px;
+}
+.login .navbar .head-container ul {
+  display: flex;
+  justify-content: right;
+  column-gap: 30px;
+  list-style-type: none;
+}
+.login .navbar .head-container ul li a {
+  color: #333;
+  outline: none;
+  text-decoration: none;
+}
+.login .main-container {
+  width: 60%;
+  height: 60%;
+  margin: 80px auto;
+  display: flex;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.login .main-container .column {
+  width: 50%;
+}
+.login .main-container .column .img-area {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+.login .main-container .column .img-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.login .main-container .column .link {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .main-container .column .link button {
+  background-color: transparent;
+  color: #0072bc;
+  border: none;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login .main-container .column .head {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-block: 40px;
+  color: #333;
+}
+.login .main-container .column .form .email {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border-bottom: 1px solid #333;
+  width: 70%;
+  height: 40px;
+}
+.login .main-container .column .form .email input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.login .main-container .column .form .email svg {
+  fill: #333;
+}
+.login .main-container .column .form .password {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border-bottom: 1px solid #333;
+  width: 70%;
+  height: 40px;
+}
+.login .main-container .column .form .password input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.login .main-container .column .form .password .eye:hover {
+  scale: 1.1;
+}
+.login .main-container .column .form .password svg {
+  fill: #333;
+}
+.login .main-container .column .error {
+  color: red;
+  font-size: 12px;
+}
+.login .main-container .column .btn {
+  margin-block: 40px;
+}
+.login .main-container .column .btn button {
+  width: 40%;
+  height: 40px;
+  background-color: #96adc2;
+  border: none;
+  border-radius: 8px;
+}
+.login .main-container .column .btn button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login .main-container .column .others {
+  display: flex;
+  align-items: center;
+  margin-block-start: 60px;
+}
+.login .main-container .column .others .img-wrap {
+  margin-inline: 10px;
+}
+.login .main-container .column .others .img-wrap img {
+  object-fit: cover;
+  height: 20px;
+  width: 20px;
+  margin-inline: 10px;
+}
+.login .main-container .column .others .img-wrap img:hover {
+  scale: 1.1;
+}
+.login .main-container .two {
+  margin-left: 40px;
+  padding-left: 30px;
+}
+.home-page .profile {
+  width: 80%;
+  border: 1px solid gray;
+  text-align: right;
+}
+.home-page .navbar {
+  background-color: #96adc2;
+  width: 100%;
+  padding: 20px;
+}
+.home-page .navbar .head-container {
+  display: flex;
+  justify-content: space-around;
+}
+.home-page .navbar .head-container ul {
+  display: flex;
+  column-gap: 30px;
+  list-style-type: none;
+}
+.home-page .navbar .head-container ul li a {
+  color: #333;
+  outline: none;
+  text-decoration: none;
+}
+.home-page .navbar .head-container .profile {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 20px;
+}
+.home-page .navbar .head-container .profile .icon {
+  margin-right: 20px;
+}
+.home-page .navbar .head-container .profile .name {
+  font-size: 20px;
+}
+.add-mark .load-modal {
+  display: none;
+}
+.add-mark .load-modal .loader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #333333a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-mark .load-modal .loader .loader-content {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.add-mark .delete-modal {
+  display: none;
+}
+.add-mark .delete-modal .delete {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  background-color: #33333386;
+}
+.add-mark .delete-modal .delete .content {
+  width: 30%;
+  margin: 100px auto;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.add-mark .delete-modal .delete .content .head {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.add-mark .delete-modal .delete .content .btn {
+  display: flex;
+  justify-content: space-around;
+}
+.add-mark .delete-modal .delete .content .btn button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.add-mark .delete-modal .delete .content .btn button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add-mark .delete-modal .delete .content .btn .one {
+  background-color: #f7ecec;
+}
+.add-mark .delete-modal .delete .content .btn .two {
+  background-color: #ecf7ec;
+}
+.add-mark .nav-bar {
+  width: 80%;
+  margin: auto;
+  margin-block-start: 30px;
+  padding: 20px;
+}
+.add-mark .nav-bar .sort {
+  display: flex;
+  align-items: center;
+}
+.add-mark .nav-bar .sort select {
+  margin-right: 20px;
+}
+.add-mark #dataTable {
+  border: 1px solid #96adc2;
+  width: 80%;
+  margin: auto;
+}
+.add-mark #dataTable table {
+  border-spacing: 0cap;
+  width: 100%;
+}
+.add-mark #dataTable table th {
+  background-color: #96adc2;
+  height: 60px;
+}
+.add-mark #dataTable table th:not(:first-child) {
+  border-left: 1px solid white;
+}
+.add-mark #dataTable table tr {
+  height: 40px;
+}
+.add-mark #dataTable table tr td {
+  border-bottom: 1px solid #96adc2;
+  text-align: center;
+}
+.add-mark #dataTable table tr td svg:hover {
+  scale: 1.1;
+}
+.add-mark #dataTable table tr td:not(:first-child) {
+  border-left: 1px solid #96adc2;
+}
+.add-mark #dataTable table tr:not(:first-child):hover {
+  background-color: #fababa;
+}
+.add-mark #dataTable table tr:nth-child(odd) {
+  background-color: #96adc2;
+}
+.add-mark .form {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.add-mark .form .column-wrap {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.add-mark .form .column-wrap .column {
+  width: 50%;
+  text-align: center;
+}
+.add-mark .form .column-wrap .column input {
+  width: 100%;
+  height: 40px;
+  margin-block: 15px;
+  outline: none;
+}
+.add-mark .form .column-wrap .column select {
+  width: 100%;
+  height: 40px;
+  margin-block: 15px;
+  outline: none;
+  cursor: pointer;
+}
+.add-mark .form .column-wrap .column select option {
+  height: 30px;
+}
+.add-mark .form .column-wrap .column .text-center {
+  padding-block: 20px;
+  text-align: left;
+  line-height: 2;
+  font-size: 15px;
+}
+.add-mark .form .btn {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.add-mark .form .btn button {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #96adc2;
+}
+.add-mark .form .btn button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
