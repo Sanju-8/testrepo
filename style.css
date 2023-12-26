@@ -1,0 +1,310 @@
+
+/* navbar */
+.container-body{
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 8px 8px 20px 1px lightgray;
+  margin-bottom: 10px;
+
+}
+.collapse navbar{
+  align-items: flex-end;
+}
+
+.navbar .collapse{
+  justify-content: end;
+}
+/* search bar */
+.form-inline button{
+background-color: #96cb30; 
+color: white; 
+border: none;
+}
+#phn{
+  border: none;
+}
+#phn a{
+  color: #96cb30;
+}
+.link{
+  display: flex;
+  justify-content: right;
+  margin: auto;
+}
+
+
+.banner-post  {
+  width: 100%;
+  background-color:#96cb30;
+  padding: 15px;
+  color: white;
+}
+
+/* second navbar */
+.nav-item:hover {
+  background-color:#96cb30;
+  color: white;  
+}
+#phn .nav-link:hover{
+  background-color:#96cb30;
+  color: black;  
+}
+
+.mid .nav-item{
+    border-right: 2px solid gray;
+    font-size: 13px;
+    padding-right: 18px;
+    color:gray;
+
+}
+
+.mid{
+    border-top: 1px solid black;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+/* image */
+.banner img{
+  width: 100%;
+}
+/* categories */
+.text-nowrap{
+width: 100%;
+padding: 20px;
+font-size: 30px;
+}
+
+
+
+
+/* cards */
+.card {
+  height: 100%;
+  padding: 5px;
+}
+.categories .row{
+  justify-content: space-between;
+}
+.column {
+  width: 20%;
+  padding: 0 10px;
+}
+
+.card-body{
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.card-title{
+  text-align: left;
+  font-size: 15px;
+  color: gray;
+}
+.card-img-top{
+  padding-bottom: 10px;
+    width: 100%;
+}
+.addtocart p,.addtocart button{
+  font-size: 1vw;
+}
+.addtocart{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.card-text{
+  color: red;
+  font-weight: bold;
+}
+.column button{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:#96cb30;
+    color: white;
+    border: none;
+}
+.addtocart-pay{
+  justify-content: space-evenly;
+  display: flex;
+  font-size: 23px;
+  color: gray;
+}
+
+/* last card */
+.column-last {
+  padding: 10px;
+  padding-top: 0%;
+  width: 40%;
+
+}
+.column-last .card{
+  height: 100%;
+  width: 100%;
+
+}
+.btn button{
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color:#96cb30;
+  color: white;
+  border: none;
+}
+.center {
+  width: 60%;
+  padding: 50px 0;
+  text-align: left;
+  align-content: center;
+  max-width: 200px;
+}
+
+#content{
+  max-width: 200px; 
+  font-size: 15px; 
+  margin-left: 15px;
+}
+.center{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.center #heading-card{
+  font-size: 20px;
+}
+.center span{
+  text-align: left; 
+  padding-left: 10px;
+  color: #96cb30;
+}
+
+#plant{
+  max-width: 40%;
+}
+
+#offerorder{
+height: 100%;
+background-color:#efefef; 
+display: flex;
+justify-content:space-evenly 
+}
+#pay{
+  max-width: 200px; 
+  max-height: 50px
+}
+
+
+
+/* footer */
+.footer{
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.footer .navbar{
+  justify-content: center;
+  font-size: 20px;
+}
+
+.footer .nav-item{
+  border-right: 1px solid gray;
+  font-size: 18px;
+  color:gray;
+
+}
+.col{
+  justify-content: space-evenly;
+}
+
+.row{
+  border: 1px solid black;
+}
+
+.footer .row{
+  border: none;
+  padding: 40px;
+}
+.footer-ol{
+  list-style: none;
+}
+
+.footer-ol img{
+  float: right;
+  width: 150px;
+}
+.footer-ol li{
+  text-align: right;
+}
+
+
+#footer{
+  width: 100%;
+font-size: 14px; 
+color: gray;
+}
+.footer .navbar{
+
+  border-bottom: 1px solid black;
+}
+.heading{
+  font-size: 20px;
+}
+
+
+
+/* cards response */
+@media screen and (max-width: 1400px) {
+  .column{
+    width: 33%;
+  }
+  .column-last{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 995px) {
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.card-title{
+  font-size: 30px;
+}
+  .addtocart p,.addtocart button{
+    font-size: 25px;
+  }
+  #offerorder{
+    height: 100%;     
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+  div.banner {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .addtocart p{
+    font-size: 10px;
+  }
+.card-title{
+  font-size: 20px;
+}
+  .addtocart p,.addtocart button{
+    font-size: 20px;
+  }
+  
+  .text-left{
+    font-size: 18px;
+  }
+
+  }
+
+
+
+
